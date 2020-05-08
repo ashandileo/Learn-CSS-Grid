@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            
+            grid-gap: 1em;
+        }
+
+        .grid-container > div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .grid-container > div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quaerat accusamus magni explicabo, repellat dolorum deserunt aliquid voluptatibus dolores quasi cupiditate impedit assumenda minima quod dolor veritatis quibusdam iusto magnam! Error, voluptatibus! Laudantium dolorum eaque deserunt exercitationem beatae consequuntur voluptatibus nulla pariatur enim vero corrupti minima, nobis, expedita porro consectetur.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias porro ipsum neque illum pariatur, consequatur hic, veritatis at explicabo laudantium quam ullam accusamus qui? Ex molestias aliquid corporis sint.
+        </div>
+
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quaerat accusamus magni explicabo, repellat dolorum deserunt aliquid voluptatibus dolores quasi cupiditate impedit assumenda minima quod dolor veritatis quibusdam iusto magnam! Error, voluptatibus! Laudantium dolorum eaque deserunt exercitationem beatae consequuntur voluptatibus nulla pariatur enim vero corrupti minima, nobis, expedita porro consectetur.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias porro ipsum neque illum pariatur, consequatur hic, veritatis at explicabo laudantium quam ullam accusamus qui? Ex molestias aliquid corporis sint.
+        </div>
+    </div>
+    
+</body>
+</html>
